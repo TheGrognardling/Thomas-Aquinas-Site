@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: 'Pathway Gothic One', cursive;
+    background: linear-gradient(#F4A259, #F4E285);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 350px;
+    border-radius: 50%;
+    border: 6px solid #BC4B51;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #BC4B51;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #BC4B51;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 750px;
+    height: 450px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/pope-francis.jpg");
+    background-size: cover;
+}
+
+#gift-img-pope_francis:hover {
+    background-image: url("images/happy-pope.gif");
+    background-size: covern;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
